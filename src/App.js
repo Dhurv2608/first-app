@@ -1,23 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+const App = () =>{
+  const data = [
+
+]
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          212522
-        </a>
-      </header>
+       <table border={1} className="">
+            <thead>
+                   <tr>
+                        <th> Id</th>
+                        <th> Name</th>
+                        <th> Mobail no.</th>
+                        <th> Color</th>
+                   </tr>
+            </thead>
+            <tbody>
+                   <tr>
+                        <td>{i.index+1}</td>                   
+                   </tr>
+            </tbody>
+       </table>
+       
     </div>
   );
 }
