@@ -31,7 +31,9 @@ table{
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.border{
+  border: 1px solid;
+}
 .App-link {
   color: #61dafb;
 }
